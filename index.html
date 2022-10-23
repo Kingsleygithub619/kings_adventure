@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta class="">
+    <title>Adventure</title>
+    <link href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#home">Home</a></li>
+            <!-- <li><a href="#tours"></a>Tours</li> -->
+            <li><a href="#events">Events</a></li>
+            <li><a href="#explore">Explore</a></li>
+            <li><a href="#tours">Tours</a></li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="img/imaes.jpeg" alt="" class="menu-btn">
+        <!-- <i class="fas fa-menu-bars"></i> -->
+    </nav>
+
+    <header>
+        <div class="header-content" id="home">
+            <h2>Explore The Colourful World</h2>
+            <div class="line"></div>
+            <h1>A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+
+
+    <section class="events" id="events">
+        <div class="title">
+            <h1>Upcoming Event</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="img/ever22.jpeg" width="500" alt="">
+                <h4>Everest Camp Trek</h4>
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet . Rerum, ut illum
+                    accusantium cum cumque pariatur aperiam, possimus obcaecati doloremque?.</p>
+                <a href="#" class="ctn">Learn More</a>
+
+            </div>
+            <div class="col">
+                <img src="img/ever 3.jpg" width="500" alt="">
+                <h4>Mountain Holiday</h4>
+                <p>Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet . Rerum, ut illum
+                    accusantium cum cumque pariatur aperiam, possimus obcaecati doloremque?.</p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="explore" id="explore">
+        <div class="explore-content">
+            <h1>EXPLORE THE WORLD</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa autem ullam, error in debitis tenetur dicta
+                commodi recusandae voluptatem odit est neque, numquam veniam. Vitae molestiae unde rem facere illum.
+            </p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+
+
+    <section class="tours" id="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>UPCOMING <br> TOURS & <br> DESTINATIONS</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam vel modi, perferendis officiis quod
+                    dicta repellendus autem vero natus cumque dolor, ea molestiae, quasi iure sed saepe tenetur
+                    consectetur nesciunt?
+                </p>
+                <a href="#" class="ctn">Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="img/teens (1).jpg" alt="">
+                    <img src="img/teens (2).jpg" alt="">
+                    <img src="img/teens (3).jpg" alt="">
+                    <img src="img/teen 4.jpeg" alt="">
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <p>Dei-Dei, FCT, Abuja, Nigeria | Phone: +234 903 097 6644 | E-mail: kingsleynnamdi@gmail.com</p>
+        <p>Copyright &copy; 2022 Outdoor Adventures. </p>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+
+</html>
